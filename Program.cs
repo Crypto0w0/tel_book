@@ -146,6 +146,7 @@ internal class Program
                 contacts[i].Show();
             }
         }
+        //не до конца реализовано
         public string SerializeMethod()
         {
             var result = JsonSerializer.SerializeToUtf8Bytes(this.contacts, _options);
